@@ -32,6 +32,7 @@ const allowedOrigins = [
   'http://127.0.0.1:5173',
   'http://localhost:5174',
   'http://127.0.0.1:5174',
+  'https://ecommercefrontend-orcin.vercel.app',
 ];
 if (process.env.FRONTEND_ORIGIN) {
   for (const o of process.env.FRONTEND_ORIGIN.split(',')) {
